@@ -120,7 +120,7 @@ To run the notebooks, ensure you have the following installed:
    ```bash
    jupyter notebook
    ```
-4. Select and run the desired notebook (`prophet_forecasting.ipynb`, `lstm_forecasting.ipynb`, or `skforecast_forecasting.ipynb`).
+4. Select and run the desired notebook (`prophet_model.ipynb`, `lstm_model.ipynb`, or `skforecast_model.ipynb`).
 
 ---
 
