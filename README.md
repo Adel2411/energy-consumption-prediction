@@ -12,17 +12,17 @@ The repository contains the following key components:
 
 ### 📂 Notebooks
 
-1. **`prophet_forecasting.ipynb`**
+1. **`prophet_model.ipynb`**
 
    - Utilizes Facebook's Prophet library for time series forecasting.
    - Incorporates seasonality, holidays, and trend detection to generate predictions.
 
-2. **`lstm_forecasting.ipynb`**
+2. **`lstm_model.ipynb`**
 
    - Implements Long Short-Term Memory (LSTM) neural networks for deep learning-based time series prediction.
    - Designed to capture complex temporal dependencies in energy consumption data.
 
-3. **`skforecast_forecasting.ipynb`**
+3. **`skforecast_model.ipynb`**
    - Uses the Skforecast library for regression-based forecasting.
    - Employs autoregressive models with feature engineering for precise predictions.
 
@@ -96,29 +96,13 @@ To run the notebooks, ensure you have the following installed:
 
 ---
 
-## Evaluation
-
-The models are evaluated using the Root Mean Squared Error (RMSE):
-
-\[
-RMSE = \sqrt{\frac{1}{n} \sum\_{i=1}^n (y_i - \hat{y}\_i)^2}
-\]
-
-Where:
-
-- \( y_i \): Actual energy consumption.
-- \( \hat{y}\_i \): Predicted energy consumption.
-- \( n \): Number of predictions.
-
----
-
 ## Results
 
 | Method     | Public RMSE | Private RMSE |
 | ---------- | ----------- | ------------ |
-| Prophet    | XX.XX       | XX.XX        |
-| LSTM       | XX.XX       | XX.XX        |
-| Skforecast | XX.XX       | XX.XX        |
+| Prophet    | 12.88       | 12.71        |
+| LSTM       | 13.54       | 13,36        |
+| Skforecast | 9.978       | 9.818        |
 
 ---
 
@@ -126,11 +110,11 @@ Where:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/energy-forecasting.git
+   git clone https://github.com/Adel2411/energy-consumption-prediction.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd energy-forecasting
+   cd energy-consumption-prediction
    ```
 3. Open Jupyter Notebook:
    ```bash
